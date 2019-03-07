@@ -2,11 +2,15 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	background-color: #113f67;
+	color: #fff;
+}
 #round{
 
 	width: 300px;
 	padding: 40px 40px;
-	background: #ccc;
+	background-color: #34699a;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
@@ -17,6 +21,7 @@
 	top: 5%;
 	bottom: 5%;
 	height: 450px;
+	color: #fff;
 }
 
 #profile{
@@ -30,6 +35,12 @@ max-width: 1000px;
 margin: 0 auto;
 background-color: maroon;
 
+}
+
+h1.form-group{
+	color: #fff;
+	font-family: impact;
+	letter-spacing: 2.6px;
 }
 
 #aligner{
@@ -93,7 +104,7 @@ input:valid{
 }
 
 input:focus {
-  border-color: #ff7c00;
+  border-color: #ddd;
   color: #10CE88;
 }
 
@@ -102,6 +113,8 @@ input:focus {
 	height: 35px;
 	border: 0;
 	border-radius: 5px;
+	background-color: #113f67;
+	color: #fff;
 }
 
 #right{
@@ -115,10 +128,7 @@ input:focus {
 #left{
 	max-width: 450px;
 	flex-grow: 100;
-	
 	background-color: maroon;
-
-
 }
 
 .container{
