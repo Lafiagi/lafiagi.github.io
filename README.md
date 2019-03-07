@@ -1,2 +1,2 @@
 # EPIC Mail
-This is the Epic Mailer, A Web Application That Allows you To Send Recieve And Retract Messages.
+This is the Epic Mailer, A single page Web Application That Allows you To Send Recieve And Retract Messages, it is a social network that allows you to make friends and share files,users can create groups to share information with like minded people.

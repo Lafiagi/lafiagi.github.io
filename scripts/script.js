@@ -18,11 +18,15 @@ function display(page) {
 	}
 
 	if (page === "Home") {
-		window.location.href="profile.html";
+		window.location.href ="profile.html";
 		return
 	}
 
 
 	let board = document.querySelector("#left");
 	board.innerHTML = "<br><br>This is Your " + page + " page"
+}
+
+function validate(page) {
+	window.location.href = page;
 }
