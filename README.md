@@ -15,26 +15,26 @@ EPIC Mail is one of the most flexible social network on the internet, It allows 
 
 ## Technologies and Tools Used
 
--Node js
+- Node js
 
--Eslint
+- Eslint
 
--Mocha & chai
+- Mocha & chai
 
--expressJs
+- ExpressJs
 
--Pivotal Tracker
+- Pivotal Tracker
 
--Swagger UI
+- Swagger UI
 
--GitHub
+- GitHub
 
 ## Requirement
 
--NodeJs
--expressJs
--pug
--postgresql
+- NodeJs
+- ExpressJs
+- Pug
+- Postgresql
 
 -GitTo run:
 
