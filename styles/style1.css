@@ -23,6 +23,12 @@ body{
 	margin-top: 50px;
 }
 
+#navigation{
+display: flex;
+justify-content: space-between;
+
+}
+
 #left{
 	height: 250px;
 	//min-width: 350px;

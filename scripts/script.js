@@ -1,14 +1,18 @@
 if (document.title === "Login") {
-	let container = document.querySelector("#container");
+	let container = document.querySelector("#round");
 	container.style.height = "350px";
 
 }
 if (document.title === "Password Recovery") {
-	document.querySelector("#container").style.maxHeight="250px";
+	document.querySelector("#round").style.maxHeight="250px";
+	document.querySelector("#round").style.width="400px";
 	document.querySelector("#aligner").style.marginTop="40px";
 	//container.style.maxHeight="10px";
 }
 
+function redirect(){
+	window.location.href = "signup.html"
+}
 
 function display(page) {
 	if (page === 'Compose') {
@@ -30,3 +34,13 @@ function display(page) {
 function validate(page) {
 	window.location.href = page;
 }
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "50px";
+} 

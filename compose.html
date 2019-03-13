@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EPIC Mail Admin</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <meta charset="utf-8">
+	 <link rel="stylesheet" type="text/css" href="styles/profile.css">
+	
+</head>
+<body>
+	<div id="nav">
+		 <div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a href="compose.html">Compose</a>
+			  <hr>
+			  <a href="profile.html">Inbox</a>
+			  <hr>
+			  <a href="sent.html">Sent</a>
+			  <hr>
+			  <a href="drafts.html">Draft</a>
+			  <hr>
+			  <a href="admin.html">Groups</a>
+			  <hr>
+			  <a href="login.html">Logout</a>
+			  <hr>
+		</div>
+
+		<span onclick="openNav()" style="cursor:pointer; font-size: 35px">&#9776;</span>
+		<div id="main">
+			<h1>
+				Send Message
+			</h1>
+			<div id="composem">
+				<div class="form-group"">
+					<input type="text" class="form-input" name="email" placeholder="Reciever" required>
+				</div>
+
+				<div class="form-group"">
+					<input type="text" class="form-input" name="title" placeholder="Subject" required>
+				</div>
+
+				<div class="form-group">
+					<textarea placeholder="Your Message" id="textarea" required></textarea>
+				</div>
+
+				<div class="form-group"">
+					<button class="btn half" onclick="validate('profile.html')">Send</button>
+					<button class="btn half" onclick="validate('profile.html')">Save</button>
+				</div>
+			</div>
+			
+		</div>
+	</div> 
+	<script src = 'scripts/script.js'></script>
+</body>
+</html>

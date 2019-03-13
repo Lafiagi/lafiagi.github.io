@@ -5,12 +5,29 @@
 body{
 	background-color: #113f67;
 	color: #fff;
+	background-image: url('../images/b.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+.half{
+	width: 49.5%;
+	padding: 20px;
+	font-size: 20px;
+	font-family: roboto;
+}
+
+a{
+	color: #fff;
 }
 #round{
 
 	width: 300px;
 	padding: 40px 40px;
-	background-color: #34699a;
+	background-color: rgba(17,63,103,.4);
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
@@ -109,14 +126,12 @@ input:focus {
 }
 
 .btn{
-	width: 104%;
-	height: 35px;
 	border: 0;
-	border-radius: 5px;
-	background-color: #113f67;
+	padding: 10px;
+	cursor: pointer;
+	background-color: rgba(17,63,103,.7); 
 	color: #fff;
 }
-
 #right{
 	max-width: 450px;
 	width: 400px;
